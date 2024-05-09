@@ -10,7 +10,7 @@ class LIFOCache(BaseCaching):
     def __init__(self):
         """Init method"""
         super().__init__()
-        self.last<F9> = None
+        self.last = None
 
     def put(self, key, item):
         """Adds a key value pair to self.cache_data"""
