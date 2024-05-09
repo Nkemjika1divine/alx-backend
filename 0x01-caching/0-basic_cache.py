@@ -13,7 +13,7 @@ class BasicCache(BaseCaching):
 
     def put(self, key, item):
         """Adds a key value pair to self.cache_data"""
-        if key is None of item is None:
+        if key is None or item is None:
             return
         data = {key: item}
         self.cache_data.update(data)
